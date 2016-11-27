@@ -11,7 +11,7 @@ import WebKit
 
 class TYWebviewController: UIViewController, WKNavigationDelegate, WKScriptMessageHandler {
     
-    let baseURL = "https://analytics.staging.trustyou.com/surveys/site/reviews/ty"
+    let baseURL = "https://analytics.trustyou.com/surveys/site/reviews/ty"
     let config = WKWebViewConfiguration()
     let embed = "ios"
     let version = "6.1"
