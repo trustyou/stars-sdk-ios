@@ -104,7 +104,8 @@ let customQuestion = TYCustomQuestion(uuid: 1234-1234-1234, value: "Value")
 prefillData.addCustomQuestion(question: customQuestion)
 ```
 **TYCategoryQuestion** consist of a mandatory *id*, with optional parameters for *review* (String) and *score* (Int).
-**TYCustomQuestion** consist of a mandatory *uuid* and *value* (both String)
+**TYCustomQuestion** consist of a mandatory *uuid* and *value* (both String).
+You can get the id and uuid form TrustYou.
 
 #### TYSurveyData
 TYSurveyData is an object representation of the data entered by the user to the survey and then returned to the host app.
