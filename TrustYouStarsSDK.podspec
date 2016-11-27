@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :path => '.' }
+  s.source       = { :git => 'https://github.com/trustyou/stars-sdk-ios.git', :tag => "1.0.0" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
